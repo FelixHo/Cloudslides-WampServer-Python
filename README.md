@@ -5,22 +5,22 @@ Cloudslides-WampServer
 
 ######运行环境部署:
 
-1.python 2.7.6 安装见https://www.python.org/ 
+1.[python 2.7.6](https://www.python.org/) 安装
 
-2.安装pip 见https://pip.pypa.io/en/latest/installing.html
+2.安装 [pip](https://pip.pypa.io/en/latest/installing.html)
 
-3.安装twisted 见https://twistedmatrix.com/trac/
+3.安装 [twisted](https://twistedmatrix.com/trac/)
 
-4.安装twisted的依赖 zope4.1.1 https://pypi.python.org/pypi/zope.interface#download
+4.安装 twisted的依赖 [zope4.1.1](https://pypi.python.org/pypi/zope.interface#download)
 
-5.安装autobahn模块 命令行执行 cd path/to/pip.exe install autobahn
+5.安装 autobahn模块 命令行执行 `cd path/to/pip.exe install autobahn`
 
-6.安装pymongo模块（2.7.1） 见https://pypi.python.org/pypi/pymongo/#downloads
+6.安装 [pymongo模块（2.7.1)](https://pypi.python.org/pypi/pymongo/#downloads)
 
 
 ###测试数据库部署: 
 
-WampServer目前基于本地数据库测试，需要在本地部署一个mongo数据库【 必须基于原liveppt数据库结构，数据库重命名为Cloudslides,原因参见代码配置 https://github.com/FelixHo/Cloudslides-WampServer-Python/blob/master/src/wamp/PageController.py#L59 】
+WampServer目前基于本地数据库测试，需要在本地部署一个mongo数据库【 必须基于原liveppt数据库结构，数据库重命名为Cloudslides,[参见代码]( https://github.com/FelixHo/Cloudslides-WampServer-Python/blob/master/src/wamp/PageController.py#L59) 】
 （将原liveppt的msql数据库转为mongodb，可通过MongoVUE或类似的mongo GUI工具实现）。
 
 
